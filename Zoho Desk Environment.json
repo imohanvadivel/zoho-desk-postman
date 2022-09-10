@@ -1,0 +1,57 @@
+{
+	"id": "967ae861-300d-4a4f-8b71-39b6820e5faf",
+	"name": "Zoho Desk Environment",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://desk.zoho.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "access_token",
+			"value": "********************************",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "refresh_token",
+			"value": "********************************",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "client_id",
+			"value": "********************************",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "client_secret",
+			"value": "********************************",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "scope",
+			"value": "Desk.tickets.ALL,Desk.contacts.READ",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "redirect_uri",
+			"value": "https://oauth.pstmn.io/v1/browser-callback",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "state",
+			"value": "paste_your_state_value",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-09-10T15:27:45.569Z",
+	"_postman_exported_using": "Postman/9.31.3-220909-1447"
+}
